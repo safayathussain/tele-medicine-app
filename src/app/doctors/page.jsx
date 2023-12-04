@@ -1,4 +1,4 @@
-import DoctorCard from '@/components/cards/doctorCard'
+import DoctorCard from '@/components/cards/DoctorCard'
 import MainLayout from '@/layouts/MainLayout'
 import React from 'react'
 
