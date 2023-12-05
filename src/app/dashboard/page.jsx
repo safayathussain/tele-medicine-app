@@ -1,14 +1,13 @@
+import Dashboard from '@/components/dashboard/Dashboard'
 import MainLayout from '@/layouts/MainLayout'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-        <MainLayout>
-            <div>
-                
-            </div>
-        </MainLayout>
+      <MainLayout>
+        <Dashboard/>
+      </MainLayout>
     </div>
   )
 }
