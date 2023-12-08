@@ -7,7 +7,7 @@ const page = () => {
             <div class="max-w-4xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
 
                 <div class="bg-white rounded-xl shadow p-4 sm:p-7 dark:bg-slate-900">
-                    
+
 
                     <form>
 
@@ -81,9 +81,6 @@ const page = () => {
                                     <label for="af-account-phone" class="inline-block text-sm text-gray-800 mt-2.5 dark:text-gray-200">
                                         Phone
                                     </label>
-                                    <span class="text-sm text-gray-400 dark:text-gray-600">
-                                        (Optional)
-                                    </span>
                                 </div>
                             </div>
 
@@ -112,14 +109,19 @@ const page = () => {
                                         <span class="text-sm text-gray-500 ms-3 dark:text-gray-400">Female</span>
                                     </label>
 
-                                    <label for="af-account-gender-checkbox-other" class="flex py-2 px-3 block w-full border border-gray-200 shadow-sm -mt-px -ms-px first:rounded-t-lg last:rounded-b-lg sm:first:rounded-s-lg sm:mt-0 sm:first:ms-0 sm:first:rounded-se-none sm:last:rounded-es-none sm:last:rounded-e-lg text-sm relative focus:z-10 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600">
-                                        <input type="radio" name="af-account-gender-checkbox" class="shrink-0 mt-0.5 border-gray-300 rounded-full text-blue-600 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-500 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800" id="af-account-gender-checkbox-other" />
-                                        <span class="text-sm text-gray-500 ms-3 dark:text-gray-400">Other</span>
-                                    </label>
                                 </div>
                             </div>
+                            <div className='sm:col-span-12'>
 
-
+                                <label for="countries" class="block mb-2 mt-5 text-sm font-medium text-gray-900 dark:text-white">Select your sector</label>
+                                <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                    <option selected>Choose a sector</option>
+                                    <option value="US">Anesthesiologist</option>
+                                    <option value="CA">Cardiologist</option>
+                                    <option value="FR">Dermatologist</option>
+                                    <option value="DE">Endocrinologist</option>
+                                </select>
+                            </div>
                             <div class="sm:col-span-3">
                                 <label for="af-account-bio" class="inline-block text-sm text-gray-800 mt-2.5 dark:text-gray-200">
                                     BIO
