@@ -13,6 +13,7 @@ const MainLayout = ({ children }) => {
         'my-schedule': 'My schedule',
         history: 'History',
         profile: 'Profile',
+        'past-records': 'Past Records'
     }
     const getPageTitle = (route) => {
         const title = titles[route];

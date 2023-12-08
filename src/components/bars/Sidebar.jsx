@@ -29,6 +29,10 @@ const Sidebar = () => {
             route: '/history',
         },
         {
+            name: 'Past records',
+            route: '/past-records',
+        },
+        {
             name: 'Profile',
             route: '/profile',
         },
