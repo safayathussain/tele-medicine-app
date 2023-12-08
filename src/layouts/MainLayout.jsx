@@ -13,7 +13,10 @@ const MainLayout = ({ children }) => {
         'my-schedule': 'My schedule',
         history: 'History',
         profile: 'Profile',
-        'past-records': 'Past Records'
+        'past-records': 'Past Records',
+        'medication': 'Medication',
+        'tests': 'Tests',
+        'choose-slot': 'Choose slot',
     }
     const getPageTitle = (route) => {
         const title = titles[route];

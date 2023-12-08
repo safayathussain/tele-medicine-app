@@ -33,6 +33,14 @@ const Sidebar = () => {
             route: '/past-records',
         },
         {
+            name: 'Medication',
+            route: '/medication',
+        },
+        {
+            name: 'Tests',
+            route: '/tests',
+        },
+        {
             name: 'Profile',
             route: '/profile',
         },
